@@ -41,6 +41,11 @@ public class Broadcaster {
             }
         }
     }
+
+    public static func clearAll() {
+        observersDic = [String: Any]()
+    }
+
 }
 
 private extension Broadcaster {
